@@ -1,0 +1,8 @@
+{
+  "max_output_lines": 8,
+  "match_counts": {
+    "^HIKER/ holds tests, but there is no program HIKER\\.CBL$": 1,
+    "TEST CASES WERE EXECUTED": 0
+  },
+  "truncated": false
+}

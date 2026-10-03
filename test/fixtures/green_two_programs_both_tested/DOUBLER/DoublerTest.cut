@@ -1,0 +1,11 @@
+           TestSuite "Doubler"
+
+           TestCase "doubles 2"
+           MOVE 2 TO WS-N
+           PERFORM DOUBLE-IT
+           EXPECT WS-N TO BE 4
+
+           TestCase "doubles 21"
+           MOVE 21 TO WS-N
+           PERFORM DOUBLE-IT
+           EXPECT WS-N TO BE 42

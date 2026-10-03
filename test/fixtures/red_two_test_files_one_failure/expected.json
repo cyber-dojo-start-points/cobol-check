@@ -1,0 +1,11 @@
+{
+  "match_counts": {
+    "^ +PASS: +[0-9]+\\. life, the universe, and everything": 1,
+    "^\\*\\*\\*\\* FAIL: +[0-9]+\\. the answer has one digit": 1,
+    "TEST CASES WERE EXECUTED": 1,
+    "^ +2 TEST CASES WERE EXECUTED$": 1,
+    "^ +1 PASSED$": 1,
+    "^ +1 FAILED$": 1
+  },
+  "truncated": false
+}

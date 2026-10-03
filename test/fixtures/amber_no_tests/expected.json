@@ -1,0 +1,7 @@
+{
+  "match_counts": {
+    "^There are no tests: no directory holds a \\.cut file\\.$": 1,
+    "TEST CASES WERE EXECUTED": 0
+  },
+  "truncated": false
+}

@@ -1,0 +1,13 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. HIKER.
+
+       DATA DIVISION.
+       WORKING-STORAGE SECTION.
+       01  WS-ANSWER               PIC 9(3).
+
+       PROCEDURE DIVISION.
+           PERFORM CALCULATE-ANSWER
+           GOBACK.
+
+       CALCULATE-ANSWER.
+           COMPUTE WS-ANSWER = 6 * .

@@ -1,0 +1,8 @@
+{
+  "match_counts": {
+    "^\\*\\*\\*\\* FAIL: +1\\. life, the universe, and everything": 1,
+    "^ +WAS \\+00000000000\\.0000000$": 1,
+    "^ +1 CALLS NOT MOCKED$": 1
+  },
+  "truncated": false
+}

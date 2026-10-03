@@ -1,0 +1,9 @@
+{
+  "max_output_lines": 20,
+  "match_counts": {
+    "^ +PASS: +[0-9]+\\. the answer has two digits": 1,
+    "^ +2 TEST CASES WERE EXECUTED$": 1,
+    "^ +2 PASSED$": 1
+  },
+  "truncated": false
+}

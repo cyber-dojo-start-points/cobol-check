@@ -1,0 +1,12 @@
+{
+  "max_output_lines": 18,
+  "match_counts": {
+    "^Compile$": 1,
+    "^ +PASS: +1\\. life, the universe, and everything": 1,
+    "^ +1 TEST CASES WERE EXECUTED$": 1,
+    "^ +1 PASSED$": 1,
+    "^ +0 FAILED$": 1,
+    "FAIL:": 0
+  },
+  "truncated": false
+}

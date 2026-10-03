@@ -1,0 +1,10 @@
+{
+  "max_output_lines": 20,
+  "match_counts": {
+    "^debug: CALCULATE-ANSWER was performed$": 1,
+    "^debug: WS-ANSWER is 042$": 1,
+    "^ +1 PASSED$": 1,
+    "^ +0 FAILED$": 1
+  },
+  "truncated": false
+}

@@ -1,0 +1,11 @@
+{
+  "match_counts": {
+    "^\\*\\*\\*\\* FAIL: +1\\. life, the universe, and everything": 1,
+    "^ +EXPECTED \\+00000000042\\.0000000$": 1,
+    "^ +WAS \\+00000000054\\.0000000$": 1,
+    "^ +1 TEST CASES WERE EXECUTED$": 1,
+    "^ +0 PASSED$": 1,
+    "^ +1 FAILED$": 1
+  },
+  "truncated": false
+}

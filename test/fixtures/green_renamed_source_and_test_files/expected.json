@@ -1,0 +1,9 @@
+{
+  "max_output_lines": 18,
+  "match_counts": {
+    "^Answer$": 1,
+    "^ +1 TEST CASES WERE EXECUTED$": 1,
+    "^ +1 PASSED$": 1
+  },
+  "truncated": false
+}

@@ -1,0 +1,5 @@
+           TestSuite "Answer size"
+
+           TestCase "the answer has one digit"
+           PERFORM CALCULATE-ANSWER
+           EXPECT WS-ANSWER < 10

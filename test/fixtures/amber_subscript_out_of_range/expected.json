@@ -1,0 +1,11 @@
+{
+  "max_output_lines": 19,
+  "matches": [
+    "WS-FACTOR"
+  ],
+  "match_counts": {
+    "^A test program stopped with exit status [0-9]+ before it finished\\.$": 1,
+    "TEST CASES WERE EXECUTED": 0
+  },
+  "truncated": false
+}

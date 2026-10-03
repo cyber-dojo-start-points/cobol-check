@@ -1,0 +1,11 @@
+{
+  "max_output_lines": 14,
+  "matches": [
+    "^HIKER\\.CBL:13: error: "
+  ],
+  "match_counts": {
+    "^Compile$": 1,
+    "TESTSUITE:": 0
+  },
+  "truncated": false
+}

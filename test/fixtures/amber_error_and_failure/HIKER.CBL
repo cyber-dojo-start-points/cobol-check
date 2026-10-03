@@ -1,0 +1,19 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. HIKER.
+
+       DATA DIVISION.
+       WORKING-STORAGE SECTION.
+       01  WS-ANSWER               PIC 9(3).
+       01  WS-ANSWERS.
+           05  WS-PAST-ANSWER      PIC 9(3) OCCURS 3 TIMES.
+       01  WS-I                    PIC 9(2) VALUE 4.
+
+       PROCEDURE DIVISION.
+           PERFORM CALCULATE-ANSWER
+           GOBACK.
+
+       CALCULATE-ANSWER.
+           COMPUTE WS-ANSWER = 6 * 9.
+
+       RECALL-ANSWER.
+           MOVE WS-PAST-ANSWER(WS-I) TO WS-ANSWER.

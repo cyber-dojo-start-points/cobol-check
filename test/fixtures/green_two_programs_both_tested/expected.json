@@ -1,0 +1,11 @@
+{
+  "max_output_lines": 28,
+  "match_counts": {
+    "^TESTSUITE:$": 2,
+    "^ +2 TEST CASES WERE EXECUTED$": 1,
+    "^ +1 TEST CASES WERE EXECUTED$": 1,
+    "^ +0 FAILED$": 2,
+    "FAIL:": 0
+  },
+  "truncated": false
+}

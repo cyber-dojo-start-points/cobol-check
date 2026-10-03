@@ -1,0 +1,7 @@
+{
+  "match_counts": {
+    "^A test program stopped before it reported its test cases\\.$": 1,
+    "TEST CASES WERE EXECUTED": 0
+  },
+  "truncated": false
+}

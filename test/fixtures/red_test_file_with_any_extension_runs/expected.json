@@ -1,0 +1,9 @@
+{
+  "match_counts": {
+    "^\\*\\*\\*\\* FAIL: +2\\. the answer has one digit": 1,
+    "^ +2 TEST CASES WERE EXECUTED$": 1,
+    "^ +1 PASSED$": 1,
+    "^ +1 FAILED$": 1
+  },
+  "truncated": false
+}

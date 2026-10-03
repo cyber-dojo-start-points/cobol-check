@@ -1,0 +1,11 @@
+{
+  "max_output_lines": 19,
+  "matches": [
+    "^SYNTAX ERROR in file: .*/HIKER/HikerTest\\.cut:5:"
+  ],
+  "match_counts": {
+    "^\tat ": 0,
+    "TEST CASES WERE EXECUTED": 0
+  },
+  "truncated": false
+}

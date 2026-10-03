@@ -1,0 +1,9 @@
+           TestSuite "Hiker"
+
+           TestCase "life, the universe, and everything"
+           PERFORM CALCULATE-ANSWER
+           EXPECT WS-ANSWER TO BE 42
+
+           TestCase "the answer can be recalled"
+           PERFORM RECALL-ANSWER
+           EXPECT WS-ANSWER TO BE 42

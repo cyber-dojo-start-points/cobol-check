@@ -1,0 +1,9 @@
+{
+  "matches": [
+    "^CHECKSUM\\.CBL:[0-9]+: error: "
+  ],
+  "match_counts": {
+    "TESTSUITE:": 0
+  },
+  "truncated": false
+}

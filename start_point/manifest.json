@@ -1,0 +1,26 @@
+{
+  "display_name": "GnuCOBOL 3.2, cobol-check 0.2",
+  "language": [
+    "GnuCOBOL",
+    "3.2"
+  ],
+  "test_framework": [
+    "cobol-check",
+    "0.2"
+  ],
+  "image_name": "ghcr.io/cyber-dojo-languages/cobol_check:890c1cb",
+  "visible_filenames": [
+    "HIKER.CBL",
+    "HIKER/HikerTest.cut",
+    "EXPECTATIONS.CBL",
+    "EXPECTATIONS/ExpectationsTest.cut",
+    "cyber-dojo.sh"
+  ],
+  "rag_lambda": "red_amber_green.rb",
+  "filename_extension": [
+    ".CBL",
+    ".cut"
+  ],
+  "max_seconds": 10,
+  "tab_size": 4
+}

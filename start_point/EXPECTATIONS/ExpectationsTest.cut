@@ -1,0 +1,30 @@
+           TestSuite "cobol-check expectations"
+
+      * These show the forms an EXPECT can take. They test the fields of
+      * EXPECTATIONS.CBL rather than anything in HIKER,
+      * so they keep passing while you rewrite HIKER around them.
+      * cobol-check counts each EXPECT as one test case.
+
+           TestCase "numeric"
+           MOVE 42 TO WS-NUMBER
+           EXPECT WS-NUMBER TO BE 42
+           EXPECT WS-NUMBER TO EQUAL 42
+           EXPECT WS-NUMBER = 42
+           EXPECT WS-NUMBER NOT TO BE 54
+           EXPECT WS-NUMBER != 54
+           EXPECT WS-NUMBER > 41
+           EXPECT WS-NUMBER >= 42
+           EXPECT WS-NUMBER < 43
+           EXPECT WS-NUMBER <= 42
+
+           TestCase "alphanumeric"
+           MOVE "Hello, World!" TO WS-TEXT
+           EXPECT WS-TEXT TO BE "Hello, World!"
+           EXPECT WS-TEXT(8:5) TO BE "World"
+           EXPECT WS-TEXT NOT TO BE "Goodbye"
+
+           TestCase "condition names"
+           SET WS-SWITCH-IS-ON TO TRUE
+           EXPECT WS-SWITCH-IS-ON TO BE TRUE
+           MOVE "N" TO WS-SWITCH
+           EXPECT WS-SWITCH-IS-ON TO BE FALSE

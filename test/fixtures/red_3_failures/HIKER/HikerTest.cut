@@ -1,0 +1,13 @@
+           TestSuite "Hiker"
+
+           TestCase "life, the universe, and everything"
+           PERFORM CALCULATE-ANSWER
+           EXPECT WS-ANSWER TO BE 42
+
+           TestCase "the answer is less than 50"
+           PERFORM CALCULATE-ANSWER
+           EXPECT WS-ANSWER < 50
+
+           TestCase "the answer is not 54"
+           PERFORM CALCULATE-ANSWER
+           EXPECT WS-ANSWER NOT TO BE 54

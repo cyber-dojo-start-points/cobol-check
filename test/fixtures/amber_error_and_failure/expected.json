@@ -1,0 +1,11 @@
+{
+  "matches": [
+    "WS-PAST-ANSWER"
+  ],
+  "match_counts": {
+    "^\\*\\*\\*\\* FAIL: +1\\. life, the universe, and everything": 1,
+    "^A test program stopped with exit status [0-9]+ before it finished\\.$": 1,
+    "TEST CASES WERE EXECUTED": 0
+  },
+  "truncated": false
+}
