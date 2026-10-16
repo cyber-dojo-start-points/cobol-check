@@ -1,14 +1,14 @@
 {
-  "display_name": "GnuCOBOL 3.2, cobol-check 0.2",
+  "display_name": "GnuCOBOL 3.2.0, cobol-check 0.2.19",
   "language": [
     "GnuCOBOL",
-    "3.2"
+    "3.2.0"
   ],
   "test_framework": [
     "cobol-check",
-    "0.2"
+    "0.2.19"
   ],
-  "image_name": "ghcr.io/cyber-dojo-languages/cobol_check:890c1cb",
+  "image_name": "ghcr.io/cyber-dojo-languages/cobol_check:56dda8e@sha256:f0ce4ad5eb31de789f6eb9f6eb391da6194a187710b3c733aee93795f0bcb788",
   "visible_filenames": [
     "HIKER.CBL",
     "HIKER/HikerTest.cut",
