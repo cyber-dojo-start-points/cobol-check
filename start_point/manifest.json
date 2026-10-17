@@ -1,7 +1,7 @@
 {
-  "display_name": "GnuCOBOL 3.2.0, cobol-check 0.2.19",
+  "display_name": "COBOL 3.2.0, cobol-check 0.2.19",
   "language": [
-    "GnuCOBOL",
+    "COBOL",
     "3.2.0"
   ],
   "test_framework": [
@@ -21,6 +21,5 @@
     ".CBL",
     ".cut"
   ],
-  "max_seconds": 10,
   "tab_size": 4
 }
